@@ -1,3 +1,5 @@
+[![ko-fi](https://img.shields.io/badge/-buy%20me%20a%20coffee-%23FF5E5B)](https://ko-fi.com/slate) [![patreon](https://img.shields.io/badge/-support%20me%20on%20patreon-%235C5C5C)](https://patreon.com/slatesfoundrystuff) ![GitHub all releases](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/total?style=plastic) ![GitHub](https://img.shields.io/github/license/zarmstrong/fvtt-lightswitch?style=plastic)
+
 # LightSwitch
 This module allows players to trigger a macro that turns on and off lights (through the GM).
 
