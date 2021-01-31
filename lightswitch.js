@@ -94,12 +94,20 @@ export async function flipTheSwitch(lightName) {
         }); 
 }
 
+export async function flipTheSwitchGM(lightName) {
+    var data = { lightName: lightName }
+    if (debug)
+        console.log("%c Light%cSwitch %c| flipping the switch",'color: #7bf542','color: #d8eb34','color: #ffffff')
+    LightSwitch.switchLight(data)
+}
+
 Hooks.once('init', LightSwitch.init);
 Hooks.on("renderLightConfig", LightSwitch.onRenderLightConfig);
 Hooks.on("updateAmbientLight", LightSwitch.onUpdateLight);
 Hooks.on('ready', () => {
     console.log("%c Light%cSwitch %c| Creating Macro Hooks",'color: #7bf542','color: #d8eb34','color: #ffffff')
     game['LightSwitch'] = {
-        flipTheSwitch: flipTheSwitch
+        flipTheSwitch: flipTheSwitch,
+        flipTheSwitchGM: flipTheSwitchGM
     };
 });
