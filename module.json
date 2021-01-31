@@ -20,7 +20,7 @@
   "socket": true,
   "url": "https://github.com/zarmstrong/fvtt-lightswitch",
   "manifest": "https://raw.githubusercontent.com/zarmstrong/fvtt-lightswitch/main/module.json",
-  "download": "https://github.com/zarmstrong/fvtt-lightswitch/releases/download/LightSwitch-0.0.1/LightSwitch-0.0.1.zip",
+  "download": "https://github.com/zarmstrong/fvtt-lightswitch/releases/download/LightSwitch-1.1.0/LightSwitch-1.1.0.zip",
   "license": "MIT",
   "readme": "https://github.com/zarmstrong/fvtt-lightswitch",
   "bugs": "https://github.com/zarmstrong/fvtt-lightswitch/issues",
