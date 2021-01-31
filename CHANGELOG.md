@@ -1,3 +1,7 @@
+## 1.1.3 (Jan 30, 2021)
+
+* fix bug with debug (for real this time)
+
 ## 1.1.2 (Jan 30, 2021)
 
 * fix bug with debug

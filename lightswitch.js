@@ -1,8 +1,8 @@
+var debug=false;
+
 class LightSwitch {
     static debug=false;
-    static getDebug() {
-        return debug;
-    }
+
     static async init() {
         console.log("%c Light%cSwitch %c| initializing",'color: #7bf542','color: #d8eb34','color: #ffffff');
         LightSwitch.SOCKET = "module.LightSwitch";
@@ -87,7 +87,7 @@ class LightSwitch {
 }
 
 export async function flipTheSwitch(lightName) {
-    if (LightSwitch.getDebug())
+    if (debug)
         console.log("%c Light%cSwitch %c| Starting to send to socket",'color: #7bf542','color: #d8eb34','color: #ffffff')
     game.socket.emit(
         LightSwitch.SOCKET, {
@@ -98,7 +98,7 @@ export async function flipTheSwitch(lightName) {
 
 export async function flipTheSwitchGM(lightName) {
     var data = { lightName: lightName }
-    if (LightSwitch.getDebug())
+    if (debug)
         console.log("%c Light%cSwitch %c| flipping the switch",'color: #7bf542','color: #d8eb34','color: #ffffff')
     LightSwitch.switchLight(data)
 }
