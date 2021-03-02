@@ -1,3 +1,7 @@
+## 1.1.4 (Mar 01, 2021)
+
+* add support for bug reporter module
+
 ## 1.1.3 (Jan 30, 2021)
 
 * fix bug with debug (for real this time)

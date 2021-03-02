@@ -24,5 +24,6 @@
   "license": "MIT",
   "readme": "https://github.com/zarmstrong/fvtt-lightswitch",
   "bugs": "https://github.com/zarmstrong/fvtt-lightswitch/issues",
+  "allowBugReporter": true,
   "changelog": "https://github.com/zarmstrong/fvtt-lightswitch/blob/main/CHANGELOG.md"  
 }
