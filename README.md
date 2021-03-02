@@ -1,12 +1,17 @@
+
 [![ko-fi](https://img.shields.io/badge/-buy%20me%20a%20coffee-%23FF5E5B?style=plastic)](https://ko-fi.com/slate) [![patreon](https://img.shields.io/badge/-support%20me%20on%20patreon-%235C5C5C?style=plastic)](https://patreon.com/slatesfoundrystuff) ![GitHub release (by tag)](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/LightSwitch-1.1.3/total?style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/total?style=plastic) ![GitHub](https://img.shields.io/github/license/zarmstrong/fvtt-lightswitch?style=plastic)
 
 # LightSwitch
 This module allows players to trigger a macro that turns on and off lights (through the GM).
 
+## Known Issues
+
+ - Multiple lights with the same name will not trigger as a group.  (see [issues/2](https://github.com/zarmstrong/fvtt-lightswitch/issues/2))
+
 ## How to use
 ###### **NOTE:**  A GM and player are required for this module to work.
 
- 1. Open up any light configuration panel and set the name of the light. (Multiple lights can share a name and be triggered as a group.) When you're done, click Update Light Source.
+ 1. Open up any light configuration panel and set the name of the light. ~~(Multiple lights can share a name and be triggered as a group.)~~ When you're done, click Update Light Source.
 ![Screenshot 1](image/screen1.webp)
  2. Toggle the light(s) on or off in any combination by right clicking a light.
  3. Create a macro with the type *script*, with the following contents, replacing *lightgroup1* with the name of your light(s): `game.LightSwitch.flipTheSwitch("lightgroup1")` 
