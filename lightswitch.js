@@ -69,13 +69,13 @@ class LightSwitch {
         lightTypeSelector.before(customNameEl);
     }
     static onUpdateLight(scene, object, changes, diff){
-        if(changes.lightSwitch && !diff.loadedProperty){ // Only attempt to save if lightSwitch prop has changed
-            LightSwitch.saveCustomProperties(object, changes);
+       if(object.lightSwitch && changes.diff){ // Only attempt to save if lightSwitch prop has changed
+            LightSwitch.saveCustomProperties(object);
         }
     }
-    static async saveCustomProperties(object, changes) {
+    static async saveCustomProperties(object) {
 
-        var customProperties = JSON.parse(JSON.stringify(changes.lightSwitch)); // Clone changes
+        var customProperties = JSON.parse(JSON.stringify(object.lightSwitch)); // Clone changes
         var placeable = canvas.lighting.get(object._id);
 
         if(!customProperties || Object.getOwnPropertyNames(customProperties).length == 0){
