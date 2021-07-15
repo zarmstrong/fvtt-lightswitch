@@ -1,5 +1,5 @@
 
-[![ko-fi](https://img.shields.io/badge/-buy%20me%20a%20coffee-%23FF5E5B?style=plastic)](https://ko-fi.com/slate) [![patreon](https://img.shields.io/badge/-support%20me%20on%20patreon-%235C5C5C?style=plastic)](https://patreon.com/slatesfoundrystuff) ![GitHub release (by tag)](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/LightSwitch-1.1.4/total?style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/total?style=plastic) ![GitHub](https://img.shields.io/github/license/zarmstrong/fvtt-lightswitch?style=plastic)
+[![ko-fi](https://img.shields.io/badge/-buy%20me%20a%20coffee-%23FF5E5B?style=plastic)](https://ko-fi.com/slate) [![patreon](https://img.shields.io/badge/-support%20me%20on%20patreon-%235C5C5C?style=plastic)](https://patreon.com/slatesfoundrystuff) ![GitHub release (by tag)](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/LightSwitch-1.2.0/total?style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/zarmstrong/fvtt-lightswitch/total?style=plastic) ![GitHub](https://img.shields.io/github/license/zarmstrong/fvtt-lightswitch?style=plastic)
 
 # LightSwitch
 This module allows players to trigger a macro that turns on and off lights (through the GM).
@@ -23,6 +23,14 @@ If you wish to trigger macros as a GM, you can use the following macro command i
 
 When the macro is triggered, all lights matching the name you set in the macro will be toggled. If there are multiple lights, this could mean that some switch on, while others switch off.
 
+## KNOWN ISSUES
+
+I haven't determined the cause or exact trigger for this, but sometimes lights will stop switching on/off if clicked too rapidly or too many times within a session. A refresh will fix this until it occurs again.
+
 ### Attribution
+
+#### Code fixes
+@anthonydeaver for 0.8.8 compat fix
+
 #### Icons
 * Some icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>

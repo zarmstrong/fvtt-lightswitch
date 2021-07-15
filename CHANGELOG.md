@@ -1,3 +1,8 @@
+## 1.2.0 (Jul 15, 2021)
+
+* updated for 0.8.8 (thanks to anthonydeaver)
+* added french translation (I unfortunately forget who sent me this translation a few months ago, but I appreciate them none-the-less)
+
 ## 1.1.4 (Mar 01, 2021)
 
 * add support for bug reporter module
