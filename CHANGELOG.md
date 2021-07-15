@@ -1,3 +1,7 @@
+## 1.2.2 (Jul 15, 2021)
+
+* forgot to update module.json
+
 ## 1.2.1 (Jul 15, 2021)
 
 * git merge issue fix
