@@ -1,3 +1,7 @@
+## 1.2.1 (Jul 15, 2021)
+
+* git merge issue fix
+
 ## 1.2.0 (Jul 15, 2021)
 
 * updated for 0.8.8 (thanks to anthonydeaver)
