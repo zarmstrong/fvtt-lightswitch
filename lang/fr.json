@@ -1,0 +1,10 @@
+{
+  "LIGHTSWITCH": {
+    "app": {
+      "title": "LightSwitch (Interrupteur)"
+    },
+    "LightName": {
+      "title": "Nom de la lumière"
+    }
+  }
+}
