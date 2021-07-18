@@ -1,3 +1,7 @@
+## 1.2.3 (Jul 18, 2021)
+
+* forgot to update module.json for minified
+
 ## 1.2.2 (Jul 15, 2021)
 
 * forgot to update module.json

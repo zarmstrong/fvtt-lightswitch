@@ -3,12 +3,12 @@
   "title": "LightSwitch",
   "description": "A module that allows players to trigger lights through macros.",
   "author": "slate",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],  
   "esmodules": [ 
-    "lightswitch.js"
+    "lightswitch.min.js"
   ],
   "languages": [
     {
@@ -20,7 +20,7 @@
   "socket": true,
   "url": "https://github.com/zarmstrong/fvtt-lightswitch",
   "manifest": "https://raw.githubusercontent.com/zarmstrong/fvtt-lightswitch/main/module.json",
-  "download": "https://github.com/zarmstrong/fvtt-lightswitch/releases/download/LightSwitch-1.2.2/LightSwitch-1.2.2.zip",
+  "download": "https://github.com/zarmstrong/fvtt-lightswitch/releases/download/LightSwitch-1.2.3/LightSwitch-1.2.3.zip",
   "license": "MIT",
   "readme": "https://github.com/zarmstrong/fvtt-lightswitch",
   "bugs": "https://github.com/zarmstrong/fvtt-lightswitch/issues",
