@@ -21,24 +21,10 @@ class LightSwitch {
 
     static switchLight(data)
     {
-        console.log("%c Light%cSwitch %c| switching lights",'color: #7bf542','color: #d8eb34','color: #ffffff')
-        const light = data.lightName;
-        console.log(`light name im searching for: ${light}`);
-        const allLights = LightingLayer.instance.objects.children
-        var lightOnIDs=[];
-        var lightOffIDs=[];
-        for (let i = 0; i <= allLights.length - 1; i++)
-        {
-            if (allLights[i].data.flags.LightSwitch && allLights[i].data.flags.LightSwitch.lightName==light) {
-                if (debug)
-                    console.log(`found a light named ${light}`)
-                //var lightStatus=allLights[i].data.hidden;
-                if (allLights[i].data.hidden == false)
-                    lightOffIDs.push(allLights[i].data._id)
-                else
-                    lightOnIDs.push(allLights[i].data._id)
-            }
-        }
+        console.log("%c Light%cSwitch %c| switching lights", "color: #7bf542", "color: #d8eb34", "color: #ffffff");
+        var allLights = canvas.lighting.placeables.filter(i => i.data.flags.LightSwitch?.lightName === data.lightName)
+        let updates = allLights.map(i => { return {_id: i.id, hidden: !i.data.hidden}})
+        canvas.scene.updateEmbeddedDocuments("AmbientLight", updates)
         if (debug) {
             console.log("on")
             console.log(lightOnIDs)
